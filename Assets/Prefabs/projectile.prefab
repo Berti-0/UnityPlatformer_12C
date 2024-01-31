@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1408993412369675289}
   - component: {fileID: 4317066301967229022}
+  - component: {fileID: 228293013106097470}
+  - component: {fileID: 3349020014675386716}
   m_Layer: 0
   m_Name: projectile
   m_TagString: Untagged
@@ -49,7 +51,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -61,6 +63,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &228293013106097470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798909650704620015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf31573eb8f8b04982572784672b257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _projectileSpeed: 15
+--- !u!114 &3349020014675386716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798909650704620015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5cbe672e72879478af54367b664b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _aliveTime: 3
 --- !u!1 &3882363323080269382
 GameObject:
   m_ObjectHideFlags: 0
